@@ -1,0 +1,50 @@
+[
+  {
+    "name": "paisaje1",
+    "img": "./imgData/paisaje1.jpg"
+  },
+  {
+    "name": "paisaje2",
+    "img": "./imgData/paisaje2.jpg"
+  },
+  {
+    "name": "paisaje3",
+    "img": "./imgData/paisaje3.jpg"
+  },
+  {
+    "name": "paisaje4",
+    "img": "./imgData/paisaje4.jpg"
+  },
+  {
+    "name": "paisaje5",
+    "img": "./imgData/paisaje5.jpg"
+  },
+  {
+    "name": "paisaje6",
+    "img": "./imgData/paisaje6.jpg"
+  },
+  {
+    "name": "paisaje7",
+    "img": "./imgData/paisaje7.jpg"
+  },
+  {
+    "name": "paisaje8",
+    "img": "./imgData/paisaje8.jpg"
+  },
+  {
+    "name": "paisaje9",
+    "img": "./imgData/paisaje9.jpg"
+  },
+  {
+    "name": "paisaje10",
+    "img": "./imgData/paisaje10.jpg"
+  },
+  {
+    "name": "paisaje11",
+    "img": "./imgData/paisaje11.jpg"
+  },
+  {
+    "name": "paisaje12",
+    "img": "./imgData/paisaje12.jpg"
+  }
+]

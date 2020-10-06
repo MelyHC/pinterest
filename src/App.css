@@ -1,0 +1,143 @@
+.logo {
+  width: 35px;
+}
+
+.card-columns {
+  column-count: 2;
+}
+
+/* .w-img {
+  width: 252px;
+} */
+
+/* .m-card {
+  margin-top: 85px;
+} */
+
+.rounded-xl {
+  border-radius: 16px;
+}
+
+.rounded-xxl {
+  border-radius: 30px;
+}
+
+.rounded-img-xxl {
+  border-radius: 30px 30px 0 0;
+}
+
+.zoom-in {
+  cursor: zoom-in;
+}
+
+.zoom-out {
+  cursor: zoom-out;
+}
+
+.default {
+  pointer-events: auto;
+  cursor: context-menu;
+}
+
+.shadow {
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-columns {
+  /* break-inside: avoid; */
+  /* page-break-inside: avoid; */
+}
+.grid-gallery {
+  display: grid;
+  grid-auto-rows: 200px;
+  grid-gap: 1rem;
+  grid-auto-flow: row dense;
+}
+
+@media all and (min-width: 320px) {
+  .grid-gallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media all and (min-width: 768px) {
+  .grid-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .grid-gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+.grid-gallery__item:nth-child(11n+1) {
+  grid-column: span 1;
+}
+
+.grid-gallery__item:nth-child(11n+4) {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.grid-gallery__item:nth-child(11n+6) {
+  grid-column: span 3;
+  grid-row: span 1;
+}
+
+.grid-gallery__item:nth-child(11n+7) {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.grid-gallery__item:nth-child(11n+8) {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.grid-gallery__item:nth-child(11n+9) {
+  grid-row: span 3;
+}
+
+.grid-gallery__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* 
+@media (min-width: 768px) {
+  .card-columns {
+    column-count: 3;
+  }
+  .modal-dialog {
+    max-width: 716px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-columns {
+    column-count: 4;
+  }
+  .rounded-img-xxl {
+    border-radius: 30px 0 0 30px;
+  }
+  .modal-dialog {
+    max-width: 816px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-columns {
+    column-count: 5;
+  }
+  .modal-dialog {
+    max-width: 1016px;
+  }
+}
+
+@media (min-width: 1513px) {
+  .card-columns {
+    column-count: 6;
+  }
+} */
